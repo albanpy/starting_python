@@ -1,0 +1,6 @@
+name=input("Enter your name:")
+adres=input("Enter your Address:")
+city=input("Enter your city:")
+state=input("Enter your State:")
+zips=input("Enter your Zip:")
+print(f'Name:{name}\nAddress:{adres}\nCity:{city}\nState:{state}\nZip:{zips}')

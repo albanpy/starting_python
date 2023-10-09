@@ -1,0 +1,14 @@
+purchase=int(input("Enter the amount of a purchase:"))
+statetax=purchase*0.05
+countystate=purchase*0.025
+tottax=statetax+countystate
+totsales=purchase+tottax
+print(f'The amount of the purchase={purchase:,.2f}\n'+
+      f'The state sales tax={statetax:,.2f}\n'
+      +f'The county sales tax={countystate:,.2f}\n'
+      +f'The total sales tax={tottax:,.2f}\n'
+      +f'The total of the sales={totsales:,.2f}')
+#print(f'The state sales tax={statetax:,.2f}')
+#print(f'The county sales tax={countystate:,.2f}')
+#print(f'The total sales tax={tottax:,.2f}')
+#print(f'The total of the sales={totsales:,.2f}')
